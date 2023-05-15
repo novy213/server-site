@@ -1,0 +1,56 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@600&family=Rubik&display=swap');
+    background-color: #1d2b3a;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftMenu{
+    float: left;
+    width: 50%;
+}
+.rightMenu{
+    float: left;
+    width: 50%;
+}
+.menuItem{
+    float: left;
+    margin: 2%;
+    margin-top: 6%;
+}
+.introduction{
+    float: left;
+    margin: 10%;
+}
+.introduction>:nth-child(1){
+    font-family: 'Rubik2', sans-serif;
+}
+.introduction>p{
+    font-size: 26px;
+    font-family: 'Rubik', sans-serif;
+}
+.projects{
+    float: left;
+}
+.projectGallery{
+    text-align: center;
+    width: 30%;
+    margin: 14.5px;
+    height: 300px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 5px white;
+    border-radius: 20px;
+    float: left;
+}
+.projectGallery>p{
+    margin-left: 5px; margin-right: 5px;
+}
