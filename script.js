@@ -43,3 +43,6 @@ function project2(){
 function project3(){
     location.href="https://github.com/novy213/tic-tac-toe-online";
 }
+function project4(){
+    location.href="https://github.com/novy213/neural-network-app-wpf";
+}
