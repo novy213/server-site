@@ -72,55 +72,67 @@ section:nth-child(odd){
     width: 200px;
     margin-top: 10px;
 }
-.projectGallery:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
-}
 #home>p{
     font-size: 46px;
     float: left;
     margin-top: 10%;
-    transition: 0.3s;
-}
-#home>p:hover{
-    text-shadow: white 1px 0 10px;
-    transition: 0.3s;
+    transition: 1s;
 }
 #home>p:nth-child(1){
     margin-bottom: -20px;
     font-size: 26px;
+    text-shadow: white 1px 0 10px;
     position: absolute;
     transform: translate(-105%, -200%);
 }
-#introduction>p{
+#introduction>*{
     text-align: center;
     font-size: 46px;
     float: left;
     margin: 20%;
-    transition: 0.3s;
-}
-#introduction>p:hover{
-    text-shadow: white 1px 0 10px;
-    transition: 0.3s;
+    transition: 1s;
 }
 #experience>p{
     text-align: center;
     font-size: 46px;
     float: left;
     margin: 20%;
-    transition: 0.3s;
-}
-#experience>p:hover{
-    text-shadow: white 1px 0 10px;
-    transition: 0.3s;
+    transition: 1s;
 }
 #contact>p{
     text-align: center;
     font-size: 30px;
-    transition: 0.3s;
-    width: 34%;
+    transition: 1s;
+    width: 30%;
 }
-#contact>p:hover{
-    text-shadow: white 1px 0 10px;
-    transition: 0.3s;
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
 }
+.show {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+.projectGallery:nth-child(2){
+    transition-delay: 200ms;
+}
+.projectGallery:nth-child(3){
+    transition-delay: 400ms;
+}
+.con:nth-child(2){
+    transition-delay: 400ms;
+}
+.con:nth-child(3){
+    transition-delay: 600ms;
+}
+.logo:hover{
+    text-shadow:white 1px 0 10px;
+    transition: 1s;
+}
+.logo{
+    transition: 1s;
+}
+
